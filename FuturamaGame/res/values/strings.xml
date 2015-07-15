@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Futurama MemoGame</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_scenario">ScenarioActivity</string>
+    <string name="title_activity_ranking">RankingActivity</string>
+    <string name="game_over">Game Over!</string>
+    <string name="score">Highscore:</string>
+    <string name="best_score">Your Score:</string>
+    <string name="imgFraiLivesDescription">Frai Lives Image</string>
+    <string name="timer_initial_seconds">00</string>
+    <string name="lives_label">11 x </string>
+    <string name="img_start_button_text">Start Button Image</string>
+    <string name="img_chip_view_description">Chip Image</string>
+    <string name="btn_try_again_text">Try Again</string>
+    <string name="btn_exit_text">Exit</string>
+    <string name="btn_menu_text">Menu</string>
+    <string name="btn_startactivity_start_text">Start</string>
+    <string name="btn_startactivity_exit_text">Get out of here!</string>
+    <color name="black">#000000</color>
+	<color name="white">#FFFFFF</color>
+    
+</resources>

@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/txtGameOver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game_over"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:layout_marginTop="150sp"
+        android:layout_marginBottom="50sp"/>
+
+    <!-- Scores -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtScoreView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/score"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white" />
+        
+        <TextView
+            android:id="@+id/txtBestScoreView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/best_score"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp" />                
+        
+    </LinearLayout>    
+    
+    <!-- Buttons (Should be images) -->
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+	    <Button
+	        android:id="@+id/btnExit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/btnMenu"
+	        android:layout_alignRight="@+id/btnMenu"
+	        android:layout_below="@+id/btnMenu"
+	        android:background="@android:color/transparent"
+	        android:text="@string/btn_exit_text"
+	        android:textColor="@drawable/futurama_ranking_text_color" />
+
+	    <Button
+	        android:id="@+id/btnMenu"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/btnTryAgain"
+	        android:layout_alignRight="@+id/btnTryAgain"
+	        android:layout_below="@+id/btnTryAgain"
+	        android:background="@android:color/transparent"
+	        android:text="@string/btn_menu_text"
+	        android:textColor="@drawable/futurama_ranking_text_color" />
+
+	    <Button
+	        android:id="@+id/btnTryAgain"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="24dp"
+	        android:background="@android:color/transparent"
+	        android:text="@string/btn_try_again_text"
+	        android:textColor="@drawable/futurama_ranking_text_color" />
+    
+    </RelativeLayout>
+    
+</LinearLayout>
